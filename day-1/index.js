@@ -12,6 +12,6 @@ fs.readFile('./day1.txt', (err, data) => {
   let orderedElfAmounts = elfAmounts.sort((a, b) => b - a);
 
   console.log(orderedElfAmounts[0]);
-  console.log(orderedElfAmounts[0] + orderedElfAmounts[1] + orderedElfAmounts[3])
+  console.log(orderedElfAmounts[0] + orderedElfAmounts[1] + orderedElfAmounts[2])
 });
 
